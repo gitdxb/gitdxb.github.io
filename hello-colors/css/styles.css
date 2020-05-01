@@ -1,0 +1,173 @@
+html {
+  height: 100%
+}
+
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Prata', serif;
+  font-size: 22px;
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Prata', serif;
+}
+h1 {
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+font-size: 100px;
+}
+
+.works h2 {
+  color: #41ccc4;
+}
+
+.myteam h2 {
+  color: #003170;
+}
+
+.img-margin {
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 50px;
+}
+
+.works h3 {
+  color: #16736e;
+}
+
+.myteam h3 {
+  color: #306fbf;
+  margin: 0 0 70px 0;
+  line-height: 100%;
+}
+
+h4 {
+  font-size: 32px;
+  color: #16736e;
+  background-color: #75e3dd;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+}
+
+.works a {
+  letter-spacing: 2px;
+  color: #16736e;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 145%;
+}
+.contact {
+  color: #f3747b;
+}
+.navigation {
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+  color: #20c4bb;
+}
+
+.navigation li a {
+  color: #20c4bb;
+  text-decoration: none;
+}
+
+.left-col, .right-col {
+  color: #fff;
+  text-align: center;
+  height: 112vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-col {
+  background-color: #003170;
+}
+
+.right-col {
+  background-color: #75e3dd;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+}
+.scroll {
+  color: #2864b1;
+  text-align: center;
+}
+
+.works {
+  color: #16736e;
+}
+
+.works-img {
+  position: relative;
+  width: 100%;
+}
+
+.works h4 {
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+}
+
+.works h4.right-aligned {
+  right: 0;
+}
+
+.extra-gutters {
+  padding: 0 60px;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f4979c;
+  min-height: 220px;
+  background-image: url(../img/socialmedia.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.social-icons-container {
+  text-align: center;
+}
