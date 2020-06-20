@@ -1,0 +1,27 @@
+body {
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 5px 15px 18px #888888;
+  padding: 30px 35px;
+  margin: 40px auto;
+}
+.flex-container {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.card-2, .card-3 {
+  width: 400px;
+}
+.card-2 {
+  background-color: #2AB3B1;
+}
+.card-3 {
+  background-color: #4BBEBD;
+}
