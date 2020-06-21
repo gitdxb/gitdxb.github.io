@@ -25,12 +25,7 @@ h1 {
     font-family: 'Lobster', cursive;
 }
 .journey-image {
-<<<<<<< HEAD
     background: url("../images/travel-2.jpg") no-repeat center center fixed;
-    background: url(travel-2.jpg) no-repeat center center fixed;
-=======
-    background: url("../css/travel-2.jpg") no-repeat center center fixed;
->>>>>>> 6dd59ba23294546df661086a71753df2031f6a60
     min-height: 100vh;
     background-size: cover;
     display: flex;
