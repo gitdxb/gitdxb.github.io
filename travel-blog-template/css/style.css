@@ -1,6 +1,25 @@
+html {
+    padding: 0;
+}
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+header h1 {
+    margin: 0;
+    padding: 15px;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
+ul {
+    padding: 0;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
-h1, h2 {
-    font-family: 'MuseoModerno', cursive;
+h1 {
+    font-family: 'Lobster', cursive;
 }
