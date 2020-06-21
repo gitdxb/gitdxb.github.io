@@ -59,6 +59,8 @@ img {
     display: flex;
     flex-direction: column;
 }
+article a {
+    border-bottom: 1px solid orange;
 article, .sidebar-widget {
     padding: 15px;
     margin: 15px 0;
