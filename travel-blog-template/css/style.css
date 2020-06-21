@@ -71,6 +71,10 @@ i {
 }
 a:hover {
     color: orange;
+    border-bottom: 1px solid orange;
+}
+td:nth-child(2) {
+    padding-left: 30px;
 }
 @media (min-width: 1000px) {
     body {
@@ -93,4 +97,19 @@ a:hover {
     header nav {
         text-align: right;
     }
+/* blog */
+.wrapper {
+    flex-direction: row;
+    margin-left: 15px;
+}
+main {
+    flex: 3;
+}
+aside {
+    flex: 1;
+    margin: 0 15px;;
+}
+article > header {
+    justify-content: space-around;
+}
 }
