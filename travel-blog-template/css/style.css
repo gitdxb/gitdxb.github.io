@@ -45,6 +45,13 @@ a {
     text-decoration: none;
     color: #2d2e3a;
 }
+footer {
+    padding: 15px;
+    text-align: center;
+}
+footer a {
+    border-bottom: 1px solid orange;
+}
 @media (min-width: 1000px) {
     body {
         max-width: 1600px;
