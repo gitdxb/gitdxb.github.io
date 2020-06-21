@@ -52,6 +52,9 @@ footer {
 footer a {
     border-bottom: 1px solid orange;
 }
+img {
+    width: 100%;
+}
 @media (min-width: 1000px) {
     body {
         max-width: 1600px;
