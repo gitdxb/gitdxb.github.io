@@ -55,6 +55,23 @@ footer a {
 img {
     width: 100%;
 }
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+article, .sidebar-widget {
+    padding: 15px;
+    margin: 15px 0;
+}
+article > header {
+    background: #d8d8d8;
+}
+i {
+    margin: 0 5px;
+}
+a:hover {
+    color: orange;
+}
 @media (min-width: 1000px) {
     body {
         max-width: 1600px;
