@@ -1,5 +1,6 @@
 html {
     padding: 0;
+    color: #2d2e3a;
 }
 header {
     text-align: center;
@@ -22,4 +23,47 @@ body {
 }
 h1 {
     font-family: 'Lobster', cursive;
+}
+.journey-image {
+    background: url(/travel-2.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.journey-text {
+    text-align: center;
+    font-size: 2em;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+.background {
+    background-color: rgba(240,240,240, 0.7);
+}
+a {
+    text-decoration: none;
+    color: #2d2e3a;
+}
+@media (min-width: 1000px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    header {
+        flex-direction: row;
+    }
+    header li {
+        display: inline-block;
+    }
+    header h1, header nav {
+        flex: 1;
+    }
+    header h1 {
+        text-align: left;
+    }
+    header nav {
+        text-align: right;
+    }
 }
