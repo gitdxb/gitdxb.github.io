@@ -28,6 +28,7 @@ header ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 header h1 {
@@ -54,9 +55,15 @@ nav a:hover {
   padding: 0;
   background-color: rgba(4, 15, 22, 1);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 250px 250px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(250px, auto);
   grid-gap: 1px;
+}
+@media (min-width: 50em) {
+  .featured {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 250px 250px;
+  }
 }
 
 .featured li {
@@ -64,6 +71,10 @@ nav a:hover {
   margin: 0.5rem 0 0 0;
   display: grid;
   grid-template-rows: 1fr minmax(5em, auto);
+}
+.featured li:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1/ 3;
 }
 
 .featured .caption {
@@ -102,5 +113,23 @@ nav a:hover {
     margin-top: 40px;
     display: grid;
     grid-gap: 5%;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 10px 1fr 10px;
 }
+.post, .side1 {
+    grid-column: 2;
+}
+@media (min-width: 50em) {
+    .content {
+    grid-template-columns: 10px 3fr 1fr 10px;
+    grid-template-rows: 10em auto;
+}
+    .post {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+.side1 {
+    grid-column: 3;
+    grid-row: 2;
+}
+}
+
