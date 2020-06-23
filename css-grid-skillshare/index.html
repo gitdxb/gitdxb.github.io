@@ -1,87 +1,104 @@
-<header>
-    <nav>
-        <ul>
-            <li><a href="">Articles</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Resources</a></li>
-            <li><a href="">Contact me</a></li>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Skillshare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <h1>Blog Posts</h1>
+    </header>
+
+    <main class="wrapper">
+        <ul class="featured">
+            <li>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-bg.jpg">
+                </div>
+                <div class="caption">
+                    <a href="">
+                        <h2>Balloons &amp; Airships</h2>
+                        <p>Read extracts from the book by Gertrude Bacon</p>
+                    </a>
+                </div>
+
+            </li>
+
+            <li>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery2.jpg">
+                </div>
+                <h2 class="caption"><a href="">Balloons I have seen</a></h2>
+
+            </li>
+            <li>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery3.jpg">
+                </div>
+                <h2 class="caption"><a href="">Airships are quite good</a></h2>
+
+            </li>
+
+            <li>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery4.jpg">
+                </div>
+                <h2 class="caption"><a href="">Things I like that are not balloons</a></h2>
+
+            </li>
+
+            <li>
+                <div class="image">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery5.jpg">
+                </div>
+                <h2 class="caption"><a href="">A trip to the balloon fiesta</a></h2>
+
+            </li>
         </ul>
-    </nav>
 
-    <h1>Blog Posts</h1>
-</header>
+        <div class="content">
+            <article class="post">
+                <h2>The Great Nassau Balloon</h2>
+                <p>The most celebrated event in all his career, however, was the voyage of the Great Nassau Balloon, in
+                    November 1836. This voyage created a tremendous sensation at the time, and has always been
+                    considered
+                    one of the most adventurous enterprises in
+                    the whole history of aeronautics. How it came about was as follows:—</p>
 
-<main class="wrapper">
-    <ul class="featured">
-        <li>
-            <div class="image">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/balloon-bg.jpg">
-            </div>
-            <div class="caption">
-                <a href="">
-                    <h2>Balloons &amp; Airships</h2>
-                    <p>Read extracts from the book by Gertrude Bacon</p>
-                </a>
-            </div>
+                <p>The managers of the Vauxhall Gardens, London, had made, with Mr. Green’s assistance, a very large and
+                    fine balloon of crimson silk, which stood eighty feet high and held 90,000 cubic feet of gas, and
+                    which
+                    would carry, if needed, more than twenty
+                    persons. After it was made the proprietors proposed exhibiting it in Paris, and there was some46
+                    question of how this valuable and fragile property had best be conveyed so far. Mr. Hollond, a young
+                    gentleman of considerable wealth, and a great
+                    lover of adventure, at once came forward, and proposed to take the balloon to the Continent by sky.
+                    His
+                    offer was accepted, and to make the ascent more noteworthy, it was decided to start from London and
+                    cross the sea by night, making as long
+                    a voyage as possible, although it was already winter time, and such a venture had never before been
+                    made.</p>
+            </article>
 
-        </li>
+            <aside class="side1">
+                <p>This voyage created a tremendous sensation at the time!</p>
+            </aside>
+        </div>
+    </main>
+</body>
 
-        <li>
-            <div class="image">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery2.jpg">
-            </div>
-            <h2 class="caption"><a href="">Balloons I have seen</a></h2>
-
-        </li>
-        <li>
-            <div class="image">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery3.jpg">
-            </div>
-            <h2 class="caption"><a href="">Airships are quite good</a></h2>
-
-        </li>
-
-        <li>
-            <div class="image">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery4.jpg">
-            </div>
-            <h2 class="caption"><a href="">Things I like that are not balloons</a></h2>
-
-        </li>
-
-        <li>
-            <div class="image">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/12005/gallery5.jpg">
-            </div>
-            <h2 class="caption"><a href="">A trip to the balloon fiesta</a></h2>
-
-        </li>
-    </ul>
-
-    <div class="content">
-        <article class="post">
-            <h2>The Great Nassau Balloon</h2>
-            <p>The most celebrated event in all his career, however, was the voyage of the Great Nassau Balloon, in
-                November 1836. This voyage created a tremendous sensation at the time, and has always been considered
-                one of the most adventurous enterprises in
-                the whole history of aeronautics. How it came about was as follows:—</p>
-
-            <p>The managers of the Vauxhall Gardens, London, had made, with Mr. Green’s assistance, a very large and
-                fine balloon of crimson silk, which stood eighty feet high and held 90,000 cubic feet of gas, and which
-                would carry, if needed, more than twenty
-                persons. After it was made the proprietors proposed exhibiting it in Paris, and there was some46
-                question of how this valuable and fragile property had best be conveyed so far. Mr. Hollond, a young
-                gentleman of considerable wealth, and a great
-                lover of adventure, at once came forward, and proposed to take the balloon to the Continent by sky. His
-                offer was accepted, and to make the ascent more noteworthy, it was decided to start from London and
-                cross the sea by night, making as long
-                a voyage as possible, although it was already winter time, and such a venture had never before been
-                made.</p>
-        </article>
-
-        <aside class="side1">
-            <p>This voyage created a tremendous sensation at the time!</p>
-        </aside>
-    </div>
-
-</main>
+</html>
