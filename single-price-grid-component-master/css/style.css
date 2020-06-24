@@ -6,30 +6,33 @@ font-size: 1em;
 .wrapper {
   display: grid;
 }
-h1 {
-  color: #51B0AF;
-}
-.card-1 h2 {
-  color: #E4EF86;
-}
-.card-1 p {
-  color: #BBBDC5;
-}
-.span1 {
-  font-size: 1.7em;
-}
-.span2 {
-  color: rgba(244,244,246,0.6);
-}
 .card {
-  box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.21);
-  padding: 15px 25px;
+  box-shadow: 0px 10px 16px 0px rgba(139, 139, 139, 0.26);
+  padding: 0 25px;
   margin: 0 5%;
   background-color: #ffffff;
 }
+h1 {
+  color: #51B0AF;
+  padding: 15px 0;
+}
+.span1 {
+  font-size: 1.7em;
+  font-weight: 700;
+}
 .card-1 {
   border-radius: 5px 5px 0px 0px;
-
+}
+.card-1 h2 {
+  color: #c9d461;
+  line-height: 0.5;
+}
+.card-1 p {
+  color: #b1b4b9;
+  line-height: 2;
+}
+.span2 {
+  color: rgba(244,244,246,0.6);
 }
 .card-2 {
   background: #2AB3B1;
@@ -39,22 +42,32 @@ h1 {
   border-radius: 0px 0px 5px 5px;
 }
 .card-3 p {
-  color: rgba(244,244,246,0.6);
+  color: rgba(244, 244, 246, 0.795);
+  padding-top: 10px;
 }
 .card-2, .card-3 {
   color: white;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 button {
   background: #BEDF32;
+    box-shadow: 0px 10px 16px 0px rgba(8, 6, 6, 0.26);
   font-size: 1em;
   color: white;
   border: 0;
-  padding: 0.7em 30%;
+  padding: 1em 30%;
+  margin: 10px 0;
   border-radius: 3px;
+  width: 100%;
+}
+button:hover {
+  background-color: orange;
 }
 .button {
   text-align: center;
 }
+
 @media screen and (min-width: 650px) {
   
   .wrapper {
@@ -63,7 +76,6 @@ button {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 50px auto;
-    padding: 0;
   }
   .card-1 {
     grid-column: 1 / 3;
