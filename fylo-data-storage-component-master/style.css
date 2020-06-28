@@ -1,5 +1,15 @@
 html {
     font-family: 'Raleway', sans-serif;
+    background-image: url(/images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.wrapper {
+    display: grid;
+    padding: 50px;
+    margin: 30px 30px;
+    background-color: hsl(243, 100%, 93%);
 }
 
 .attribution {
