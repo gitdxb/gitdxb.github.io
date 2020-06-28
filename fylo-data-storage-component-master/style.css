@@ -4,14 +4,74 @@ html {
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
 }
-.wrapper {
+.grid-container {
     display: grid;
-    padding: 50px;
-    margin: 30px 30px;
-    background-color: hsl(243, 100%, 93%);
+    padding: 120px 0;
+}
+.grid-item-1, .grid-item-2 {
+    background-color: hsl(228, 56%, 26%);
+    padding: 40px;
+    margin: 8px 20px;
+}
+.grid-item-1 {
+    border-radius: 10px 100px 10px 10px;
+}
+.grid-item-2 {
+        border-radius: 10px;
 }
 
+.icon-1, .icon-2, .icon-3 {
+    margin-top: 30px;
+    padding: 10px;   
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: 700;
+    display: inline-block;
+    justify-content: space-between;
+}
+.button {
+    background-color: white;
+    color: black;
+    padding: 2px 15px;
+    border-radius: 5px;
+    max-width: 120px;
+    /* display: block; */
+    margin: 30px auto -70px;
+    text-align: center;
+}
+.button p {
+    color: hsl(229, 7%, 55%);
+}
+.number {
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+.progress-bar {
+    background: hsl(229, 57%, 11%);
+    border-radius: 13px;
+    height: 15px;
+    width: 100%;
+    padding: 3px;
+}
+
+.progress-bar:after {
+    content: '';
+    display: block;
+    background: orange;
+    width: 81.5%;
+    height: 100%;
+    border-radius: 9px;
+}
+/* Footer */
 .attribution {
       font-size: 11px;
       text-align: center;

@@ -13,19 +13,26 @@
 </head>
 
 <body>
-  <main class="wrapper">
-    <div class="header">
+  <main class="grid-container">
+    <div class="grid-item-1">
       <img src="/images/logo.svg" alt="Fylo logo">
-      <img src="/images/icon-document.svg" alt="">
-      <img src="/images/icon-folder.svg" alt="">
-      <img src="/images/icon-upload.svg" alt="">
+      <div class="grid-icon">
+        <img class="icon-1" src="/images/icon-document.svg" alt="icon-document">
+        <img class="icon-2" src="/images/icon-folder.svg" alt="icon-folder">
+        <img class="icon-3" src="/images/icon-upload.svg" alt="icon-upload">
+      </div>
     </div>
 
-    <div class="status">
+    <div class="grid-item-2">
       <p>You’ve used <b>815 GB</b> of your storage</p>
-      <p>0 GB</p>
-      <p>1000 GB</p>
-      <p>185 GB Left</p>
+      <div class="progress-bar"></div>
+      <ul>
+        <li>0 GB</li>
+        <li>1000 GB</li>
+      </ul>
+      <div class="button">
+        <p><span class="number">185</span> GB LEFT</p>
+      </div>
     </div>
   </main>
 
